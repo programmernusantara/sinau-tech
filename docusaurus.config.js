@@ -30,7 +30,6 @@ const config = {
   organizationName: 'programmernusantara', // Usually your GitHub org/user name.
   projectName: 'sinau-tech', // Usually your repo name.
   deploymentBranch: "gh-pages",
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
