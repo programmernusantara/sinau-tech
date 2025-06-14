@@ -4,36 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Komputer',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Pelajari dasar-dasar komputer secara lengkap, mulai dari sejarah, komponen, cara kerja, hingga perangkat lunak.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Internet',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Pahami apa itu internet, bagaimana cara kerjanya, dan bagaimana kita menggunakannya dalam kehidupan sehari-hari, termasuk keamanan dan etika digital.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Aplikasi',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Kenali berbagai jenis aplikasi, dari aplikasi desktop hingga mobile. Pelajari fungsi, contoh, dan cara penggunaannya dalam berbagai bidang.
       </>
     ),
   },
 ];
+
 
 function Feature({Svg, title, description}) {
   return (
