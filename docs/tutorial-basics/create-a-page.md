@@ -18,7 +18,7 @@ void main() {
 }
 ```
 
-### 📘 Explanation
+📘 Explanation
 
 * `void main() {}`: Entry point of every Dart app.
 * `print()`: Prints text to the console.
@@ -39,7 +39,7 @@ void main() {
 }
 ```
 
-### 📘 Explanation
+📘 Explanation
 
 * `String`: For text values.
 * `int`: For integer numbers.
@@ -49,7 +49,7 @@ void main() {
 
 ## ➕ Operators
 
-### 🔢 Arithmetic Operators
+🔢 Arithmetic Operators
 
 ```jsx
 void main() {
@@ -68,7 +68,7 @@ void main() {
 * `+` Add
 * `-` Subtract
 
-### 🔍 Comparison Operators
+🔍 Comparison Operators
 
 ```jsx
 void main() {
@@ -113,7 +113,7 @@ void main() {
 }
 ```
 
-### 📘 Explanation
+📘 Explanation
 
 * `List<String>`: A list of strings.
 * `people[1]`: Access item at index 1.
@@ -146,7 +146,7 @@ void main() {
 }
 ```
 
-### 📘 Explanation
+📘 Explanation
 
 * `Map<Key, Value>`: Defines a map.
 * `person['key']`: Access a value.
@@ -156,7 +156,7 @@ void main() {
 
 ## 🔎 Conditionals
 
-### ✅ if - else
+✅ if - else
 
 ```jsx
 void main() {
@@ -170,7 +170,7 @@ void main() {
 }
 ```
 
-### 📘 Explanation
+📘 Explanation
 
 * `if` tests a condition.
 * `else` runs if `if` is false.
@@ -195,7 +195,7 @@ void main() {
 }
 ```
 
-### 📘 Explanation
+📘 Explanation
 
 * `switch(variable)` starts the check.
 * `case` defines values to check.
@@ -216,7 +216,7 @@ void main() {
 }
 ```
 
-### 📘 Explanation
+📘 Explanation
 
 * `for(init; condition; update)` creates a loop.
 * `i++` increases the counter.
@@ -242,7 +242,7 @@ void main() {
 }
 ```
 
-### 📘 Explanation
+📘 Explanation
 
 * `void hello()` defines a function.
 * `greet(String name)` takes input.
