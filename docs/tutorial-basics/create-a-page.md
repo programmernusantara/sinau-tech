@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 🚀 Introduction to Dart
+# 🚀 Overview
 
 Welcome to the Dart programming language! Dart is an easy-to-learn, scalable language used for building mobile, web, and server applications. In this guide, you'll learn the basics of Dart with clear examples.
 
@@ -232,22 +232,50 @@ void hello() {
   print('Hello World');
 }
 
-void greet(String name) {
-  print('Hi, $name!');
-}
-
 void main() {
   hello();
-  greet('Wildan');
 }
 ```
 
 📘 Explanation
 
 * `void hello()` defines a function.
-* `greet(String name)` takes input.
 * `main()` calls both functions.
 
 ---
 
-✅ You’ve reached the end of the Dart basics documentation. Keep experimenting and happy coding with Dart! 💙
+Parameter
+
+In the function support parameter
+
+``` jsx
+void person(String name){
+print("My name is: $name")
+}
+
+void main (){
+  person("Wildan");
+}
+```
+📘 Explanation
+
+``` void person (String name){} ``` this is parameter for storage value in the from of string, int, double.
+
+``` person(); ``` send data string to parameter in object person.
+
+---
+
+Return value
+
+In the function suport return value
+
+``` jsx 
+void main (){
+print(add(10 + 10));
+}
+
+int add(int a, int b){
+  return a + b;
+}
+
+```

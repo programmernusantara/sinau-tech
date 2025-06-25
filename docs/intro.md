@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 👋 Selamat Datang di Dokumentasi Teknologi Kami
+# 👋 Overview
 
 Dokumentasi ini memperkenalkan teknologi inti yang digunakan di startup kami: **Dart**, **Golang**, dan **Rust** — masing-masing dipilih karena kekuatan dan keunggulannya untuk membangun sistem modern yang cepat, aman, dan efisien.
 

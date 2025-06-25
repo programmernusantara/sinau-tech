@@ -1,57 +1,66 @@
 ---
+
 sidebar_position: 2
+
 ---
 
-# Create a Document
+# 🧱 Object-Oriented Programming
 
-Documents are **groups of pages** connected through:
+**OOP (Object-Oriented Programming)** is a programming approach that organizes code based on **objects**.
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+An object is a combination of:
 
-## Create your first Doc
+* **Data** → called **properties** or **attributes**
+* **Functions** → called **methods** or **behaviors**
 
-Create a Markdown file at `docs/hello.md`:
-
-```md title="docs/hello.md"
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
-
-## Configure the Sidebar
-
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
-
-Add metadata to customize the sidebar label and position:
-
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
 ---
 
-# Hello
+🌍 Real-World Example
 
-This is my **first Docusaurus document**!
+Imagine an **object**: 🚗 Car
+
+**Properties (characteristics of the car):**
+
+* 🎨 Color
+* 🏷️ Brand
+* ⚡ Speed
+
+**Methods (what the car can do):**
+
+* ▶️ `driveForward()` → move forward
+* ◀️ `reverse()` → move backward
+* 🛑 `brake()` → stop
+
+---
+
+## 💻 OOP Example in Dart Language
+
+```jsx
+void main() {
+  // Creating a car object
+  Car myCar = Car();
+  myCar.go();
+}
+
+// Creating a class (template for objects)
+class Car {
+  // Properties
+  String brand = "Toyota";
+  int speed = 120;
+
+  // Method (behavior)
+  void go() {
+    print('The $brand car is moving at $speed km/h.');
+  }
+}
 ```
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+---
 
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
+📝 Explanation
+
+* `class Car {}` → Defines a **class** named `Car` as a **template** to create car objects.
+* `String brand = "Toyota";` → Stores the car brand as a **property**.
+* `void go() {}` → A function or **method** that shows the object’s behavior when executed.
+
+---
