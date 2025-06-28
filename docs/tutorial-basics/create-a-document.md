@@ -1,66 +1,58 @@
 ---
-
 sidebar_position: 2
+---
+
+# 🧱 OOP (Object-Oriented Programming)
+
+**OOP (Object-Oriented Programming)** adalah pendekatan pemrograman yang mengorganisasi kode berdasarkan **objek**. Pendekatan ini membantu membuat program lebih terstruktur, mudah dikembangkan, dan dapat digunakan kembali (*reusable*).
+
+🔹Apa Itu Objek?
+
+Objek terdiri dari dua bagian utama:
+
+- **Properti** → data atau atribut yang dimiliki objek  
+- **Metode** → fungsi atau perilaku yang dapat dilakukan objek  
 
 ---
 
-# 🧱 Object-Oriented Programming
+🌍 Contoh Dunia Nyata
 
-**OOP (Object-Oriented Programming)** is a programming approach that organizes code based on **objects**.
+Bayangkan sebuah objek: **🚗 Mobil**
 
-An object is a combination of:
+✅ Properti (atribut mobil):
+- 🎨 Warna  
+- 🏷️ Merek  
+- ⚡ Kecepatan  
 
-* **Data** → called **properties** or **attributes**
-* **Functions** → called **methods** or **behaviors**
-
----
-
-🌍 Real-World Example
-
-Imagine an **object**: 🚗 Car
-
-**Properties (characteristics of the car):**
-
-* 🎨 Color
-* 🏷️ Brand
-* ⚡ Speed
-
-**Methods (what the car can do):**
-
-* ▶️ `driveForward()` → move forward
-* ◀️ `reverse()` → move backward
-* 🛑 `brake()` → stop
+✅ Metode (aksi yang dapat dilakukan mobil):
+- ▶️ `driveForward()` → maju  
+- ◀️ `reverse()` → mundur  
+- 🛑 `brake()` → berhenti  
 
 ---
 
-## 💻 OOP Example in Dart Language
+## 💻 Class
+
+Dalam OOP, kita menggunakan **class** untuk mendefinisikan bentuk dan perilaku objek. Berikut contoh sederhana menggunakan bahasa **Dart**:
 
 ```jsx
 void main() {
-  // Creating a car object
   Car myCar = Car();
-  myCar.go();
+  print(myCar.brand);
 }
 
-// Creating a class (template for objects)
 class Car {
-  // Properties
   String brand = "Toyota";
-  int speed = 120;
-
-  // Method (behavior)
-  void go() {
-    print('The $brand car is moving at $speed km/h.');
-  }
 }
-```
+````
 
 ---
 
-📝 Explanation
+📝 Penjelasan Kode
 
-* `class Car {}` → Defines a **class** named `Car` as a **template** to create car objects.
-* `String brand = "Toyota";` → Stores the car brand as a **property**.
-* `void go() {}` → A function or **method** that shows the object’s behavior when executed.
+* `class Car {}` → Mendefinisikan **class** bernama `Car` sebagai template.
+* `String brand = "Toyota";` → Menyimpan nilai properti `brand` pada class `Car`.
+* `Car myCar = Car();` → Membuat objek `myCar` dari class `Car`.
+* `print(myCar.brand);` → Menampilkan isi properti `brand` milik objek `myCar`.
 
 ---
