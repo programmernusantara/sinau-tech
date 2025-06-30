@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ---
 
-## 🔹 Apa Itu Objek?
+Apa Itu Objek?
 
 Objek terdiri dari dua bagian utama:
 
@@ -17,23 +17,23 @@ Objek terdiri dari dua bagian utama:
 
 ---
 
-## 🌍 Contoh Dunia Nyata
+🌍 Contoh Dunia Nyata
 
 Bayangkan sebuah objek **🚗 Mobil**:
 
-### ✅ Properti (atribut mobil):
+✅ Properti (atribut mobil):
 - 🎨 Warna  
 - 🏷️ Merek  
 - ⚡ Kecepatan  
 
-### ✅ Metode (aksi yang dapat dilakukan mobil):
+✅ Metode (aksi yang dapat dilakukan mobil):
 - ▶️ `driveForward()` → maju  
 - ◀️ `reverse()` → mundur  
 - 🛑 `brake()` → berhenti  
 
 ---
 
-## 💻 Class (Kelas)
+## 💻 Class
 
 Dalam OOP, kita menggunakan **class** untuk mendefinisikan bentuk dan perilaku objek. Berikut contoh sederhana dalam bahasa **Dart**:
 
@@ -48,7 +48,7 @@ class Car {
 }
 ````
 
-### 📝 Penjelasan Kode:
+📝 Penjelasan Kode:
 
 * `class Car {}` → Mendefinisikan class bernama `Car` sebagai *template* objek.
 * `String brand = "Toyota";` → Properti `brand` dalam class `Car`.
@@ -57,7 +57,7 @@ class Car {
 
 ---
 
-## 🛠️ Constructor (Konstruktor)
+## 🛠️ Constructor
 
 **Constructor** adalah fungsi khusus dalam class yang digunakan untuk membuat dan menginisialisasi objek baru.
 
@@ -74,7 +74,7 @@ class Person {
 }
 ```
 
-### 📝 Penjelasan Kode:
+📝 Penjelasan Kode:
 
 * `class Person` → Mendefinisikan class `Person`.
 * `String name;` → Properti `name` dari class.
