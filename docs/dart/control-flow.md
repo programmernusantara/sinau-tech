@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 🚀 Control Flow
+# 🔁 Control Flow
 
 Saat menulis program komputer, Anda perlu memberi tahu komputer apa yang harus dilakukan dalam berbagai situasi. Untuk itu, Anda dapat menggunakan **struktur kontrol alur (control flow)** di Dart agar program dapat merespons kondisi tertentu secara dinamis.
 
