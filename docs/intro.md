@@ -1,4 +1,4 @@
-```markdown
+---
 sidebar_position: 1
 ---
 
@@ -63,6 +63,5 @@ Namun, Dart juga fleksibel untuk aplikasi *backend* maupun *desktop*. Beberapa k
 ---
 
 Jika kamu ingin belajar membuat aplikasi modern, Dart dan Flutter bisa menjadi kombinasi yang sangat ideal!
-```
 
 ---
