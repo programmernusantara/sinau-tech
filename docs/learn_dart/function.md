@@ -17,7 +17,7 @@ Dengan fungsi, kita bisa mengelompokkan logika program agar dapat digunakan kemb
 `main()` adalah titik awal eksekusi program Dart. Tanpa fungsi ini, program Dart tidak akan berjalan.
 
 **Contoh:**
-```dart
+```jsx
 void main() {
   hello();
 }
