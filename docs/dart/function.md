@@ -12,7 +12,7 @@ Dengan fungsi, kita bisa mengelompokkan logika program agar dapat digunakan kemb
 
 ---
 
-## 🏁 Fungsi `main()`
+## 🏁 Main()
 
 `main()` adalah titik awal eksekusi program Dart. Tanpa fungsi ini, program Dart tidak akan berjalan.
 
@@ -36,7 +36,7 @@ void hello() {
 
 ---
 
-## 🎯 Fungsi dengan Parameter
+## 🎯 Parameter
 
 Fungsi dapat menerima **parameter** (argumen) untuk diproses di dalamnya.
 Parameter memungkinkan kita memberikan data dari luar fungsi.
@@ -61,7 +61,7 @@ void hello(String name) {
 
 ---
 
-## 🔄 Fungsi dengan Return Type
+## 🔄 Return Type
 
 Selain `void`, fungsi juga bisa **mengembalikan nilai** (return value).
 Tipe data yang dikembalikan harus sesuai dengan yang ditentukan di deklarasi fungsi.
@@ -88,7 +88,7 @@ String name() {
 
 ---
 
-## 🧩 Fungsi dengan Beberapa Parameter
+## 🧩 Beberapa Parameter
 
 Kita juga bisa membuat fungsi dengan lebih dari satu parameter.
 
@@ -114,7 +114,7 @@ int tambah(int a, int b) {
 
 ---
 
-## ⚡ Fungsi Arrow (Sederhana)
+## ⚡ Arrow
 
 Dart menyediakan **arrow function** untuk menuliskan fungsi singkat dalam satu baris.
 
