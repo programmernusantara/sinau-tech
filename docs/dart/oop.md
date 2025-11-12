@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 🏗️ Object-Oriented Programming
+# 🏗️ Oop
 
 **Object-Oriented Programming (OOP)** adalah paradigma pemrograman yang berfokus pada **objek**.  
 Objek menyimpan **data (property)** dan **fungsi (method)**, sehingga program menjadi lebih **terstruktur, modular, dan mudah dikembangkan**.
