@@ -1,16 +1,16 @@
 // @ts-check
-// Docusaurus Configuration - Sinau Tech
-// Belajar Komputer, Jaringan, Pemrograman, dan AI dari Dasar
+// Docusaurus Configuration - SinTec
+// Belajar App Development • IoT • AI
 
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Sinau Tech',
-  tagline: 'Belajar Komputer Dengan Mudah',
+  title: 'SinTec',
+  tagline: 'Belajar App Development, IoT, & AI',
   favicon: 'img/favicon.ico',
 
-  // 🌐 Site Info
+  // Site Info
   url: 'https://programmernusantara.github.io',
   baseUrl: '/sinau-tech/',
   organizationName: 'programmernusantara',
@@ -29,53 +29,30 @@ const config = {
     v4: true,
   },
 
-  // 📘 Documentation & Blog Settings
+  // Docs Only (Blog & Portfolio Removed)
   presets: [
     [
       'classic',
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/programmernusantara/sinau-tech/tree/main/',
+          editUrl: 'https://github.com/programmernusantara/sinau-tech/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl:
-            'https://github.com/programmernusantara/sinau-tech/tree/main/',
-        },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
+        blog: false,        // Blog removed
+        theme: { customCss: './src/css/custom.css' },
       }),
     ],
   ],
 
-  // 🎨 Theme Configuration
+  // Theme Config
   themeConfig: ({
     image: 'img/sinau-social-card.jpg',
     navbar: {
-      title: 'Sinau Tech',
-      logo: {
-        alt: 'Sinau Tech Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'SinTec',
+      logo: { alt: 'SinTec Logo', src: 'img/logo.svg' },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {
-          label: 'GitHub',
-          href: 'https://github.com/programmernusantara',
-          position: 'right',
-        },
+        { type: 'docSidebar', sidebarId: 'tutorialSidebar', label: 'Tutorial', position: 'left' },
+        { href: 'https://github.com/programmernusantara', label: 'GitHub', position: 'right' },
       ],
     },
 
@@ -83,34 +60,25 @@ const config = {
       style: 'dark',
       links: [
         {
-          title: 'Belajar',
+          title: 'Menu',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
+            { label: 'Tutorial', to: '/docs/intro' },
           ],
         },
         {
           title: 'Komunitas',
           items: [
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/wildan_fq',
-            },
+            { label: 'Discord', href: 'https://discordapp.com/invite/wildan_fq' },
           ],
         },
         {
-          title: 'Lainnya',
+          title: 'Sosial',
           items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/programmernusantara',
-            },
+            { label: 'GitHub', href: 'https://github.com/programmernusantara' },
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Sinau Tech. Dibangun oleh Wildan FQ.`,
+      copyright: `© ${new Date().getFullYear()} SinTec · oleh Wildan FQ`,
     },
 
     prism: {

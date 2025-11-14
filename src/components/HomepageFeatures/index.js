@@ -4,33 +4,37 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Komputer',
+    title: 'Mobile App Development',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Pelajari dasar-dasar komputer secara lengkap, mulai dari sejarah, komponen, cara kerja, hingga perangkat lunak.
+        Belajar membuat aplikasi modern dari awal menggunakan Dart & Flutter. 
+        Bangun UI elegan, sistem terhubung ke backend, hingga aplikasi siap rilis.
       </>
     ),
   },
   {
-    title: 'Internet',
+    title: 'Internet of Things (IoT)',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Pahami apa itu internet, bagaimana cara kerjanya, dan bagaimana kita menggunakannya dalam kehidupan sehari-hari, termasuk keamanan dan etika digital.
+        Kuasai dunia IoT dengan Arduino dan Raspberry Pi. 
+        Rancang perangkat pintar, automasi, dan sistem berbasis sensor dengan mudah.
       </>
     ),
   },
   {
-    title: 'Aplikasi',
+    title: 'AI & Machine Learning',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Kenali berbagai jenis aplikasi, dari aplikasi desktop hingga mobile. Pelajari fungsi, contoh, dan cara penggunaannya dalam berbagai bidang.
+        Pelajari konsep kecerdasan buatan, machine learning, 
+        dan cara membangun model AI yang dapat diintegrasikan langsung ke aplikasi Anda.
       </>
     ),
   },
 ];
+
 
 function Feature({ Svg, title, description }) {
   return (

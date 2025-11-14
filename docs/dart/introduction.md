@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # 🚀 Introduction
 
-Selamat datang di bahasa pemrograman **Dart**!  
-Dart adalah bahasa pemrograman yang mudah dipelajari dan skalabel, digunakan untuk membangun aplikasi **seluler**, **web**, dan **sisi server**.
+Selamat datang di panduan belajar pemrograman **Dart**!  
+Dalam panduan ini, Anda akan mempelajari dasar-dasar Dart melalui contoh-contoh yang jelas dan mudah dipahami. 
 
-Dalam panduan ini, Anda akan mempelajari dasar-dasar Dart melalui contoh-contoh yang jelas dan mudah dipahami.
+Panduan ini dirancang khusus untuk pemula agar proses belajar lebih nyaman dan terstruktur.
 
 ---
 

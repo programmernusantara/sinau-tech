@@ -2,50 +2,31 @@
 sidebar_position: 1
 ---
 
-# 💻 Bahasa Pemrograman?
+# 👋 Selamat Datang
 
-**Bahasa pemrograman** adalah kumpulan instruksi yang digunakan untuk memberi perintah kepada komputer agar menjalankan tugas tertentu.  
-Bahasa ini menjadi jembatan antara manusia dan mesin, memungkinkan kita membuat aplikasi, sistem, hingga kecerdasan buatan.
+**SinTec** adalah platform belajar sederhana yang berfokus pada tiga bidang utama teknologi modern.  
+Website ini dibuat untuk meningkatkan kualitas Sumber Daya Manusia (SDM) di Indonesia, khususnya dalam bidang teknologi dan sains.  
 
----
-
-### ⚙️ Cara Kerja Bahasa Pemrograman
-
-1. **Menulis Kode (Source Code)**  
-   Programmer menulis kode menggunakan aturan (sintaks) dari bahasa tertentu di editor atau IDE. Kode ini masih bisa dibaca manusia.
-
-2. **Mengubah ke Bahasa Mesin**  
-   Agar bisa dijalankan komputer, kode diubah menjadi bahasa mesin (0 dan 1) melalui dua cara utama:
-
-   - **Kompilasi** → Kode diterjemahkan sekaligus oleh *compiler* menjadi file executable.  
-     Contoh: C, C++, Go, Java.  
-   - **Interpretasi** → Kode dibaca dan dijalankan baris demi baris oleh *interpreter*.  
-     Contoh: Python, JavaScript, PHP.
+Di tengah pesatnya perkembangan teknologi global, akses pembelajaran berkualitas masih belum merata. Karena itu, SinTec hadir sebagai proyek **open source** yang menyediakan materi pembelajaran **gratis**, ringkas, dan mudah dipahami — terutama bagi pemula yang ingin berkembang.
 
 ---
 
-### 🚀 Fungsi Bahasa Pemrograman
-
-Bahasa pemrograman digunakan di berbagai bidang:
-
-- **Aplikasi Mobile & Web** → Flutter (Dart), JavaScript, Kotlin, Swift.  
-- **Game** → C++, C#, Python.  
-- **Sistem Operasi** → C, C++, Assembly.  
-- **AI & Data Science** → Python, R.  
+## 📱 Mobile Developer  
+Pelajari dasar bahasa *Dart*, membangun UI dengan *Flutter*, hingga membuat aplikasi mobile yang siap dipublikasikan.  
+Materi disusun bertahap sehingga cocok bagi yang mulai dari nol.
 
 ---
 
-### 💬 Contoh Bahasa Modern: Dart
-
-**Dart** adalah bahasa modern buatan Google untuk membangun aplikasi *mobile*, *web*, dan *desktop*.  
-Dart dikenal karena:
-
-- Kinerja tinggi  
-- *Hot reload* untuk pengembangan cepat  
-- Integrasi sempurna dengan **Flutter**
+## 🔌 Internet Of Things
+Pahami cara kerja perangkat pintar seperti sensor, aktuator, dan bangun proyek otomasi sederhana.  
+Sangat cocok untuk kamu yang ingin memasuki dunia hardware dan *embedded system*.
 
 ---
 
-Jika kamu ingin membuat aplikasi modern, **Dart + Flutter** adalah kombinasi yang tepat untuk memulainya! 🚀
+## 🤖 AI & Machine Learning  
+Kenali konsep dasar AI, cara mengolah dataset, membangun model sederhana, hingga mengintegrasikan AI ke aplikasi.  
+Materi dibuat ringan, praktis, dan tidak rumit.
 
 ---
+
+Belajar dengan santai, mulai dari dasar, dan kembangkan kemampuanmu **step-by-step**. 🚀
