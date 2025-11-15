@@ -6,8 +6,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SinTec',
-  tagline: 'Belajar App Development, IoT, & AI',
+  title: 'sinau-tech',
+  tagline: 'App Development, IoT, & AI',
   favicon: 'img/favicon.ico',
 
   // Site Info
@@ -48,7 +48,7 @@ const config = {
   themeConfig: ({
     image: 'img/sinau-social-card.jpg',
     navbar: {
-      title: 'SinTec',
+      title: 'sintech',
       logo: { alt: 'SinTec Logo', src: 'img/logo.svg' },
       items: [
         { type: 'docSidebar', sidebarId: 'tutorialSidebar', label: 'Tutorial', position: 'left' },

@@ -4,29 +4,30 @@ sidebar_position: 1
 
 # 👋 Selamat Datang
 
-**SinTec** adalah platform belajar sederhana yang berfokus pada tiga bidang utama teknologi modern.  
-Website ini dibuat untuk meningkatkan kualitas Sumber Daya Manusia (SDM) di Indonesia, khususnya dalam bidang teknologi dan sains.  
-
-Di tengah pesatnya perkembangan teknologi global, akses pembelajaran berkualitas masih belum merata. Karena itu, SinTec hadir sebagai proyek **open source** yang menyediakan materi pembelajaran **gratis**, ringkas, dan mudah dipahami — terutama bagi pemula yang ingin berkembang.
+SinTec adalah platform belajar sederhana untuk meningkatkan kualitas SDM Indonesia dalam bidang teknologi modern.  
+Semua materi bersifat **gratis**, ringkas, dan mudah dipahami — cocok untuk pemula.
 
 ---
 
-## 📱 Mobile Developer  
-Pelajari dasar bahasa *Dart*, membangun UI dengan *Flutter*, hingga membuat aplikasi mobile yang siap dipublikasikan.  
-Materi disusun bertahap sehingga cocok bagi yang mulai dari nol.
+## Mobile Developer  
+Belajar dasar *Dart*, membangun UI dengan *Flutter*, hingga membuat aplikasi mobile siap rilis.
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/NrO0CJCbYLA" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-## 🔌 Internet Of Things
-Pahami cara kerja perangkat pintar seperti sensor, aktuator, dan bangun proyek otomasi sederhana.  
-Sangat cocok untuk kamu yang ingin memasuki dunia hardware dan *embedded system*.
+## Internet of Things  
+Pahami sensor, aktuator, dan buat proyek otomasi sederhana. Cocok untuk pemula yang ingin masuk ke dunia *embedded system*.
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/1ENiVwk8idM" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-## 🤖 AI & Machine Learning  
-Kenali konsep dasar AI, cara mengolah dataset, membangun model sederhana, hingga mengintegrasikan AI ke aplikasi.  
-Materi dibuat ringan, praktis, dan tidak rumit.
+## AI & Machine Learning  
+Pelajari konsep dasar AI, pengolahan data, dan pembuatan model sederhana yang mudah diimplementasikan.
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/PeMlggyqz0Y" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-Belajar dengan santai, mulai dari dasar, dan kembangkan kemampuanmu **step-by-step**. 🚀
+Belajar santai, pelan-pelan, dan tingkatkan kemampuanmu langkah demi langkah. 🚀
