@@ -11,7 +11,7 @@ Panduan ini dirancang khusus untuk pemula agar proses belajar lebih nyaman dan t
 
 ---
 
-## 👋 Hello World
+## Hello World
 
 Berikut adalah program Dart pertama Anda:
 
@@ -28,7 +28,7 @@ void main() {
 
 ---
 
-## 🧺 Data Types
+## Data Types
 
 Variabel adalah wadah untuk menyimpan nilai data.
 
@@ -60,7 +60,7 @@ void main() {
 
 ---
 
-## ➕ Operators
+## Operators
 
 🔢 Arithmetic Operators
 
@@ -108,7 +108,7 @@ void main() {
 
 ---
 
-## 📥 User Input
+## User Input
 
 Berikut contoh untuk menerima input dari pengguna:
 
@@ -125,7 +125,7 @@ void main() {
 
 📘 **Penjelasan:**
 
-* `stdin.readLineSync()`: Digunakan untuk membaca input dari pengguna melalui terminal.
 * `String? name`: Tanda `?` menunjukkan bahwa variabel bisa bernilai null (nullable).
+* `stdin.readLineSync()`: Digunakan untuk membaca input dari pengguna melalui terminal.
 
 ---

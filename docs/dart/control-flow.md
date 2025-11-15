@@ -10,7 +10,7 @@ Bahasa Dart menyediakan beberapa struktur kontrol utama seperti `if-else`, `swit
 
 ---
 
-## 🔀 Else If
+## Else If
 
 Pernyataan `if-else if-else` digunakan untuk mengevaluasi beberapa kondisi secara berurutan. Eksekusi berhenti pada kondisi pertama yang bernilai **true**.
 
@@ -43,7 +43,7 @@ void main() {
 
 ---
 
-## 🔁 Switch Case
+## Switch Case
 
 `switch-case` digunakan ketika Anda ingin membandingkan satu variabel dengan banyak kemungkinan nilai tetap. Ini lebih rapi daripada menggunakan banyak `if-else`.
 
@@ -97,7 +97,7 @@ void main() {
 
 ---
 
-## 🔂 For Loop
+## For Loop
 
  Loop digunakan untuk mengeksekusi blok kode berulang kali selama kondisi tertentu terpenuhi.
  `for` digunakan saat jumlah iterasi sudah diketahui.
@@ -119,7 +119,7 @@ void main() {
 
 ---
 
-## 🔁 While Loop
+## While Loop
 
 `while` digunakan saat jumlah perulangan **tidak pasti**, dan bergantung pada kondisi logis.
 
