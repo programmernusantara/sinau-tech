@@ -4,15 +4,15 @@ sidebar_position: 3
 
 # ⚙️ Function
 
-Dalam bahasa Dart, **function** atau **fungsi** adalah blok kode yang dirancang untuk menjalankan tugas tertentu.  
-Fungsi membantu menghindari pengulangan kode, membuat program lebih rapi, dan mudah dibaca.
+Function (fungsi) di Dart adalah kumpulan kode yang menjalankan satu tugas tertentu.
+Fungsi membuat kode lebih rapi, tidak berulang, dan mudah dikelola.
 
-Setiap program Dart dimulai dari **fungsi `main()`**. Dari fungsi ini, kita dapat memanggil fungsi lain untuk dieksekusi.  
-Dengan fungsi, kita bisa mengelompokkan logika program agar dapat digunakan kembali tanpa harus menulis ulang kode yang sama.
+Semua program Dart selalu dimulai dari fungsi main().
+Dari fungsi ini, kita bisa memanggil fungsi lain untuk menjalankan logika program sesuai kebutuhan.
 
 ---
 
-## 🏁 Main()
+## Main()
 
 `main()` adalah titik awal eksekusi program Dart. Tanpa fungsi ini, program Dart tidak akan berjalan.
 
@@ -36,14 +36,14 @@ void hello() {
 
 ---
 
-## 🎯 Parameter
+## Parameter
 
 Fungsi dapat menerima **parameter** (argumen) untuk diproses di dalamnya.
 Parameter memungkinkan kita memberikan data dari luar fungsi.
 
 **Contoh:**
 
-```dart
+```jsx
 void main() {
   hello('Wildan');
 }
@@ -61,7 +61,7 @@ void hello(String name) {
 
 ---
 
-## 🔄 Return Type
+## Return Type
 
 Selain `void`, fungsi juga bisa **mengembalikan nilai** (return value).
 Tipe data yang dikembalikan harus sesuai dengan yang ditentukan di deklarasi fungsi.
@@ -88,7 +88,7 @@ String name() {
 
 ---
 
-## 🧩 Beberapa Parameter
+## Beberapa Parameter
 
 Kita juga bisa membuat fungsi dengan lebih dari satu parameter.
 
@@ -114,7 +114,7 @@ int tambah(int a, int b) {
 
 ---
 
-## ⚡ Arrow
+## Arrow
 
 Dart menyediakan **arrow function** untuk menuliskan fungsi singkat dalam satu baris.
 
@@ -135,7 +135,7 @@ void main() {
 
 ---
 
-## 🔗 Penggabungan Semua Konsep
+## Penggabungan Semua Konsep
 
 Sekarang mari kita gabungkan semuanya: fungsi dengan parameter, return type, dan pemanggilan di `main()`.
 
